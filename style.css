@@ -10,7 +10,7 @@ body{background-color: rgb(249, 225, 255);}
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     align-items: center;
 
 }
@@ -22,12 +22,12 @@ section{
 
 .card-faq{
     background-color: white;
-    height: 60vh;
+    max-height: 70vh;
     max-width: 536.5px;
     display: flex;
     flex-direction: column;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .card-head h1{
@@ -74,4 +74,8 @@ button{
 
 .active{
     display: block;
+}
+
+#minus{
+    display: none;
 }

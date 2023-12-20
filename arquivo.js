@@ -8,10 +8,12 @@ const answer2 = document.querySelector('.card-answer2');
 const answer3 = document.querySelector('.card-answer3');
 const answer4 = document.querySelector('.card-answer4');
 
+const icon = document.getElementById("minus")
+
 
 
 button.addEventListener('click', () => {
-    answer.classList.toggle('active') 
+    answer.classList.toggle('active');
 })
 
 button2.addEventListener('click', () => {
