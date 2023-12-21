@@ -22,8 +22,8 @@ section{
 
 .card-faq{
     background-color: white;
+    width: 550px;
     max-height: 70vh;
-    max-width: 536.5px;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -55,6 +55,7 @@ section{
     gap: 5px;
     font-weight: bolder;
     letter-spacing: 1px;
+    cursor: pointer;
 
 }
 
